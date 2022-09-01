@@ -1,0 +1,515 @@
+@media only screen and (max-width: 768px) {
+
+    @font-face {
+        font-family: amatic-sc;
+        src: url(amatic-sc.bold.ttf);
+    }
+
+    body {
+        background: #FFC24D;
+        font-family: amatic-sc;
+    }
+
+    .ever {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    a {
+        margin: none;
+    }
+
+    .arrow {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background: rgb(67, 67, 67);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .bra {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 60px;
+
+    }
+
+    .backbra {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 60px;
+        background: gray;
+        border-radius: 40px;
+
+    }
+
+    .pojam {
+        position: absolute;
+        top: 156px;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .butt1 {
+        position: absolute;
+        top: 229px;
+        /*right: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: -60px;
+        font-size: 30px;
+        border: none;
+        background: #DB5141;
+    }
+
+    .butt2 {
+        position: absolute;
+        top: 229px;
+        /* left: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: 5px;
+        font-size: 30px;
+        border: none;
+        background: white;
+    }
+
+    .ses {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uzr {
+        position: absolute;
+        top: 294px;
+    }
+
+    .god {
+        position: absolute;
+        top: 367px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .kat {
+        position: absolute;
+        top: 432px;
+    }
+
+    .normal {
+        position: absolute;
+        top: 505px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .startt {
+        position: absolute;
+        top: 634px;
+        border-radius: 30px;
+        background: #FFE9B0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border: none;
+        font-size: 30px;
+        font-family: amatic-sc;
+        width: 280px;
+        height: 55px;
+    }
+
+    hr {
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 300px;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 300px;
+        opacity: 30%;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 440px;
+        opacity: 30%;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+
+    @font-face {
+        font-family: amatic-sc;
+        src: url(amatic-sc.bold.ttf);
+    }
+
+    body {
+        background: #FFC24D;
+        font-family: amatic-sc;
+    }
+
+    .ever {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    a {
+        margin: none;
+    }
+
+    .arrow {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background: rgb(67, 67, 67);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .bra {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 60px;
+
+    }
+
+    .backbra {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 60px;
+        background: gray;
+        border-radius: 40px;
+
+    }
+
+    .pojam {
+        position: absolute;
+        top: 156px;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .butt1 {
+        position: absolute;
+        top: 229px;
+        /*right: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: -60px;
+        font-size: 30px;
+        border: none;
+        background: #DB5141;
+    }
+
+    .butt2 {
+        position: absolute;
+        top: 229px;
+        /* left: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: 5px;
+        font-size: 30px;
+        border: none;
+        background: white;
+    }
+
+    .ses {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uzr {
+        position: absolute;
+        top: 294px;
+    }
+
+    .god {
+        position: absolute;
+        top: 367px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .kat {
+        position: absolute;
+        top: 432px;
+    }
+
+    .normal {
+        position: absolute;
+        top: 505px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .startt {
+        position: absolute;
+        top: 634px;
+        border-radius: 30px;
+        background: #FFE9B0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border: none;
+        font-size: 30px;
+        font-family: amatic-sc;
+        width: 280px;
+        height: 55px;
+    }
+
+    hr {
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 300px;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 300px;
+        opacity: 30%;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 440px;
+        opacity: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-height: 800px) {
+    @font-face {
+        font-family: amatic-sc;
+        src: url(amatic-sc.bold.ttf);
+    }
+
+    body {
+        background: #FFC24D;
+        font-family: amatic-sc;
+    }
+
+    .ever {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    a {
+        margin: none;
+    }
+
+    .arrow {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background: rgb(67, 67, 67);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+    }
+
+    .bra {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 40px;
+        background: gray;
+        border-radius: 50%;
+    }
+
+    .backbra {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 60px;
+        background: gray;
+        border-radius: 40px;
+
+    }
+
+    .pojam {
+        position: absolute;
+        top: 116px;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .butt1 {
+        position: absolute;
+        top: 179px;
+        /*right: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: -60px;
+        font-size: 30px;
+        border: none;
+        background: #DB5141;
+    }
+
+    .butt2 {
+        position: absolute;
+        top: 179px;
+        /* left: 200px;*/
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: amatic-sc;
+        padding: 0;
+        margin-left: 5px;
+        font-size: 30px;
+        border: none;
+        background: white;
+    }
+
+    .ses {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uzr {
+        position: absolute;
+        top: 244px;
+    }
+
+    .god {
+        position: absolute;
+        top: 317px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .kat {
+        position: absolute;
+        top: 372px;
+    }
+
+    .normal {
+        position: absolute;
+        top: 445px;
+        width: 280px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 30px;
+        font-family: amatic-sc;
+    }
+
+    .startt {
+        position: absolute;
+        top: 514px;
+        border-radius: 30px;
+        background: #FFE9B0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border: none;
+        font-size: 30px;
+        font-family: amatic-sc;
+        width: 240px;
+        height: 45px;
+    }
+
+    hr {
+        position: relative;
+        display: block;
+        margin: 0;
+        width: 300px;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 250px;
+        opacity: 30%;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 390px;
+        opacity: 30%;
+    }
+}
