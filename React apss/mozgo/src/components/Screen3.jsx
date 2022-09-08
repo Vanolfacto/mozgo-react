@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Screen3.css';
+// import './Screen3.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 // import {BrowserRouter as  Link } from 'react-router-dom';
@@ -57,16 +57,16 @@ const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
       <div>
         <div className="ev">
           <Link to="/n2">
-            <img className="arrow" width="10px" height="15px" src="/assets/Vector.png" alt="" />
+            <img className="arrow" width="10px" height="15px" src="/assets/images/Vector.png" alt="" />
           </Link>
           <h1 className="title">IZABERI SVOG AVATARA:</h1>
           <div className="back1" id="button" onPointerDown={() => toggleModal(0)}>
-            <img className="brain1" id="brain" src="/assets/mozgo 2-05 1.png" alt="" />
+            <img className="brain1" id="brain" src="/assets/images/mozgo 2-05 1.png" alt="" />
           </div>
 
           <h1 className="det">DETEKTIV MOZGON</h1>
           <div className="back2" id="button2" onPointerDown={() => toggleModal(1)}>
-            <img className="brain2" id="brain2" src="/assets/mozgo-06 1.png" alt="" />
+            <img className="brain2" id="brain2" src="/assets/images/mozgo-06 1.png" alt="" />
           </div>
           <h1 className="book">KNJIŠKO SVEZNALIĆ</h1>
           <div id="button3" className="back3" onPointerDown={() => toggleModal(2)}></div>
@@ -76,9 +76,9 @@ const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
       {modal && (
         <div className="popup">
           <div className="popupwindow">
-            <img className="arrowwindow" id="brar1" src="/assets/Vector.png" alt="" onPointerDown={toggleModal} />
-            {modalStyle === 0 ? <img className="brain1window" id="brar2" src="/assets/mozgo 2-05 1.png" alt="" /> : null}
-            {modalStyle === 1 ? <img className="brain2window" id="brar3" src="/assets/mozgo-06 1.png" alt="" /> : null}
+            <img className="arrowwindow" id="brar1" src="/assets/images/Vector.png" alt="" onPointerDown={toggleModal} />
+            {modalStyle === 0 ? <img className="brain1window" id="brar2" src="/assets/images/mozgo 2-05 1.png" alt="" /> : null}
+            {modalStyle === 1 ? <img className="brain2window" id="brar3" src="/assets/images/mozgo-06 1.png" alt="" /> : null}
             {modalStyle === 2 ? <div className="back3window"></div> : null}
             <input
               type="text"

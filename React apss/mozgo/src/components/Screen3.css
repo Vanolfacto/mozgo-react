@@ -1,16 +1,10 @@
 @media only screen and (max-width: 768px) {
 
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
+    } */
 
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
-
-
-    }
 
     .ev {
         display: flex;
@@ -122,7 +116,7 @@
     input {
         display: block;
         margin: 20px auto;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         width: 90%;
         height: 15%;
@@ -142,7 +136,7 @@
         height: 16%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         font-size: 35px;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         text-decoration: none;
         color: black;
@@ -293,17 +287,12 @@
 
 @media only screen and (min-width: 769px) {
 
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
-
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
+    } */
 
 
-    }
 
     .ev {
         display: flex;
@@ -415,7 +404,7 @@
     input {
         display: block;
         margin: 20px auto;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         width: 90%;
         height: 12%;
@@ -435,7 +424,7 @@
         height: 15%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
         font-size: 35px;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         text-decoration: none;
         color: black;
@@ -589,17 +578,11 @@
 
 
 @media only screen and (max-height: 800px) {
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
+    } */
 
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
-
-
-    }
 
     .ev {
         display: flex;
@@ -715,7 +698,7 @@
     input {
 
         position: relative;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         max-width: 90%;
         height: 18%;
@@ -735,7 +718,7 @@
         width: 80%;
         height: 15%;
         font-size: 200%;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         text-align: center;
         text-decoration: none;
         color: black;

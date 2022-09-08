@@ -1,19 +1,14 @@
 @media only screen and (max-width: 768px) {
 
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
+    } */
 
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
-
-    }
 
     h1 {
         position: absolute;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         top: 30px;
         font-size: 40px;
         text-align: center;
@@ -107,20 +102,16 @@
 @media only screen and (min-width: 769px) {
 
 
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
+    } */
 
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
-
-    }
+  
 
     h1 {
         position: absolute;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         top: 30px;
         font-size: 40px;
         text-align: center;
@@ -197,20 +188,16 @@
 }
 
 @media only screen and (max-height: 800px) {
-    @font-face {
+    /* @font-face {
         font-family: amatic-sc;
         src: url(amatic-sc.bold.ttf);
-    }
+    } */
 
-    body {
-        background: #FFC24D;
-        font-family: amatic-sc;
-
-    }
+ 
 
     h1 {
         position: absolute;
-        font-family: amatic-sc;
+        /* font-family: amatic-sc; */
         top: 10px;
         font-size: 40px;
         text-align: center;

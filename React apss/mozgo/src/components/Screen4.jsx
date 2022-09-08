@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Screen4.css';
+// import './Screen4.css';
 // import {BrowserRouter as Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -43,36 +43,36 @@ const Screen4 = ({ name, avatar, mode, pojam, setPojam, setKategorija, setUzrast
 
   useEffect(() => {
     if (avatar === 'Detektiv Mozgon') {
-      setImg('/assets/mozgo 2-05 1.png');
+      setImg('/assets/images/mozgo 2-05 1.png');
     } else if (avatar === 'Knjiško Sveznalić') {
-      setImg('/assets/mozgo-06 1.png');
+      setImg('/assets/images/mozgo-06 1.png');
     } else {
       setImg('');
     }
   }, []);
-  // let img1 = '/assets/mozgo 2-05 1.png';
-  // let img2 = '/assets/mozgo-06 1.png';
+  // let img1 = '/assets/images/mozgo 2-05 1.png';
+  // let img2 = '/assets/images/mozgo-06 1.png';
   // let img3 = '';
 
   return (
     <div>
       <div className="ever">
         <Link to="/n3">
-          <img className="arrow" width="10px" height="15px" src="/assets/Vector.png" alt="" />
+          <img className="arrow" width="10px" height="15px" src="/assets/images/Vector.png" alt="" />
         </Link>
         {/* {modal && (
           <div>
-            {modalStyle === 0 ? <img className="bra" id="bran1" src="/assets/mozgo 2-05 1.png" alt="" /> : null}
-            {modalStyle === 1 ? <img className="bra" id="bran2" src="/assets/mozgo-06 1.png" alt="" /> : null}
+            {modalStyle === 0 ? <img className="bra" id="bran1" src="/assets/images/mozgo 2-05 1.png" alt="" /> : null}
+            {modalStyle === 1 ? <img className="bra" id="bran2" src="/assets/images/mozgo-06 1.png" alt="" /> : null}
             {modalStyle === 2 ? <div className="backbra" id="bran3"></div> : null}
           </div>
         )} */}
 
-        {img === '/assets/mozgo 2-05 1.png' ? (
-          <img src="/assets/mozgo 2-05 1.png" style={{ background: 'gray', borderRadius: '2.5rem' }} className="bra" alt="" />
+        {img === '/assets/images/mozgo 2-05 1.png' ? (
+          <img src="/assets/images/mozgo 2-05 1.png" style={{ background: 'gray', borderRadius: '2.5rem' }} className="bra" alt="" />
         ) : null}
-        {img === '/assets/mozgo-06 1.png' ? (
-          <img src="/assets/mozgo-06 1.png" style={{ background: 'gray', borderRadius: '2.5rem' }} className="bra" alt="" />
+        {img === '/assets/images/mozgo-06 1.png' ? (
+          <img src="/assets/images/mozgo-06 1.png" style={{ background: 'gray', borderRadius: '2.5rem' }} className="bra" alt="" />
         ) : null}
         {img === '' ? <div className="backbra" id="bran3"></div> : null}
         <h1 className="pojam">POJAM SE VIDI NA EKRANU: {name}</h1>
