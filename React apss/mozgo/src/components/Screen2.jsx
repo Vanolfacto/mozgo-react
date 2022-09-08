@@ -1,5 +1,5 @@
 import React from 'react';
-import './Screen2.css';
+// import './Screen2.css';
 // import {BrowserRouter as Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Screen2 = ({ mode, setMode }) => {
         {' '}
         <img
           className="cloud"
-          src="/assets/Group 1.png"
+          src="/assets/images/Group 1.png"
           onPointerDown={() => {
             setMode('Singleplayer');
           }}
