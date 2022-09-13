@@ -1,70 +1,16 @@
-@media only screen and (max-width: 768px) {
+.screen2{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
-    } */
+.linkcloud{
 
+}
 
-    h1 {
-        position: absolute;
-        /* font-family: amatic-sc; */
-        top: 30px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-
-
-    .sin {
-        position: absolute;
-        top: 380px;
-        font-size: 32px;
-        text-align: center;
-
-    }
-
-    .mul {
-        position: absolute;
-        top: 689px;
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .squareo {
-        display: block;
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        background: white;
-        border-radius: 20%;
-        top: 185px;
-        margin: 0px -100px;
-    }
-
-    .squaret {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        background: white;
-        border-radius: 20%;
-        top: 496px;
-        display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .kont2 {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cloud {
-        display: block;
-        position: absolute;
-        top: 160px;
+.cloud{
+   
         background: white;
         padding: 25px;
         width: 140px;
@@ -72,202 +18,14 @@
         border-radius: 15%;
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-
-    .bitch{
-        position: relative;
-        left: -95px;
-    }
-    .bitch2{
-        position: relative;
-        left: -95px;
-    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 769px) {
-
-
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
-    } */
-
-  
-
-    h1 {
-        position: absolute;
-        /* font-family: amatic-sc; */
-        top: 30px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-
-
-    .sin {
-        position: absolute;
-        top: 380px;
-        font-size: 32px;
-        text-align: center;
-
-    }
-
-    .mul {
-        position: absolute;
-        top: 689px;
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .squareo {
-        display: block;
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        background: white;
-        border-radius: 20%;
-        top: 185px;
-        margin: 0px -100px;
-    }
-
-    .squaret {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        background: white;
-        border-radius: 20%;
-        top: 496px;
-        display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .kont2 {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cloud {
-        display: block;
-        position: absolute;
-        top: 160px;
-        background: white;
+.squarecloud{
+    background: white;
         padding: 25px;
         width: 140px;
         height: 120px;
         border-radius: 15%;
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-
-    .bitch{
-        position: relative;
-        left: -95px;
-    }
-    .bitch2{
-        position: relative;
-        left: -95px;
-    }
-}
-
-@media only screen and (max-height: 800px) {
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
-    } */
-
- 
-
-    h1 {
-        position: absolute;
-        /* font-family: amatic-sc; */
-        top: 10px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-
-
-    .sin {
-        position: absolute;
-        top: 265px;
-        font-size: 32px;
-        text-align: center;
-
-    }
-
-    .mul {
-        position: absolute;
-        top: 485px;
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .squareo {
-        display: block;
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        background: white;
-        border-radius: 20%;
-        top: 185px;
-        margin: 0px -100px;
-    }
-
-    .squaret {
-        position: absolute;
-        width: 190px;
-        height: 160px;
-        background: white;
-        border-radius: 10%;
-        top: 340px;
-        display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .kont2 {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .cloud {
-        display: block;
-        position: absolute;
-        top: 110px;
-        background: white;
-        padding: 25px;
-        width: 140px;
-        height: 120px;
-        border-radius: 15%;
-        
-    }
-    .bitch{
-        position: relative;
-        left: -95px;
-    }
-    .bitch2{
-        position: relative;
-        left: -95px;
-    }
-
 }

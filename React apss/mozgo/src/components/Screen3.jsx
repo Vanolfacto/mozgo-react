@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-// import './Screen3.css';
-import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import "./Screen3.css";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import {BrowserRouter as  Link } from 'react-router-dom';
 
 const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
   const [modal, setModal] = useState(false);
   const [modalStyle, setModalStyle] = useState(1);
 
-  const toggleModal = arg => {
+  const toggleModal = (arg) => {
     setModal(!modal);
     // let sli1 = document.getElementById('brain');
     // let sli2 = document.getElementById('brain2');
@@ -37,56 +37,105 @@ const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
   let navigate = useNavigate();
 
   const goHome = () => {
-    if (name === '') {
-      return alert('Obavezno je ime');
+    if (name === "") {
+      return alert("Obavezno je ime");
     }
     if (modalStyle === 0) {
-      setAvatar('Detektiv Mozgon');
-      navigate('/n4');
+      setAvatar("Detektiv Mozgon");
+      navigate("/n4");
     } else if (modalStyle === 1) {
-      setAvatar('Knjiško Sveznalić');
-      navigate('/n4');
+      setAvatar("Knjiško Sveznalić");
+      navigate("/n4");
     } else if (modalStyle === 2) {
-      setAvatar('Narednik Strožilo');
-      navigate('/n4');
+      setAvatar("Narednik Strožilo");
+      navigate("/n4");
     }
   };
 
   return (
-    <div>
+    <div className="Screen3">
       <div>
         <div className="ev">
           <Link to="/n2">
-            <img className="arrow" width="10px" height="15px" src="/assets/images/Vector.png" alt="" />
+            <img
+              className="arrow"
+              width="10px"
+              height="15px"
+              src="/assets/images/Vector.png"
+              alt=""
+            />
           </Link>
-          <h1 className="title">IZABERI SVOG AVATARA:</h1>
-          <div className="back1" id="button" onPointerDown={() => toggleModal(0)}>
-            <img className="brain1" id="brain" src="/assets/images/mozgo 2-05 1.png" alt="" />
+          <h1 className="titlen3">IZABERI SVOG AVATARA:</h1>
+          <div
+            className="back1"
+            id="button"
+            onPointerDown={() => toggleModal(0)}
+          >
+            <img
+              className="brain1"
+              id="brain"
+              src="/assets/images/mozgo 2-05 1.png"
+              alt=""
+            />
           </div>
 
           <h1 className="det">DETEKTIV MOZGON</h1>
-          <div className="back2" id="button2" onPointerDown={() => toggleModal(1)}>
-            <img className="brain2" id="brain2" src="/assets/images/mozgo-06 1.png" alt="" />
+          <div
+            className="back2"
+            id="button2"
+            onPointerDown={() => toggleModal(1)}
+          >
+            <img
+              className="brain2"
+              id="brain2"
+              src="/assets/images/mozgo-06 1.png"
+              alt=""
+            />
           </div>
           <h1 className="book">KNJIŠKO SVEZNALIĆ</h1>
-          <div id="button3" className="back3" onPointerDown={() => toggleModal(2)}></div>
+          <div
+            id="button3"
+            className="back3"
+            onPointerDown={() => toggleModal(2)}
+          ></div>
           <h1 className="may">NAREDNIK STROŽILO</h1>
         </div>
       </div>
+
       {modal && (
         <div className="popup">
           <div className="popupwindow">
-            <img className="arrowwindow" id="brar1" src="/assets/images/Vector.png" alt="" onPointerDown={toggleModal} />
-            {modalStyle === 0 ? <img className="brain1window" id="brar2" src="/assets/images/mozgo 2-05 1.png" alt="" /> : null}
-            {modalStyle === 1 ? <img className="brain2window" id="brar3" src="/assets/images/mozgo-06 1.png" alt="" /> : null}
+            <img
+              className="arrowwindow"
+              id="brar1"
+              src="/assets/images/Vector.png"
+              alt=""
+              onPointerDown={toggleModal}
+            />
+            {modalStyle === 0 ? (
+              <img
+                className="brain1window"
+                id="brar2"
+                src="/assets/images/mozgo 2-05 1.png"
+                alt=""
+              />
+            ) : null}
+            {modalStyle === 1 ? (
+              <img
+                className="brain2window"
+                id="brar3"
+                src="/assets/images/mozgo-06 1.png"
+                alt=""
+              />
+            ) : null}
             {modalStyle === 2 ? <div className="back3window"></div> : null}
             <input
               type="text"
-              className="name"
+              className="inputname"
               name="name1"
               id="name1"
               placeholder="IME"
-              onChange={e => {
+              onChange={(e) => {
                 setName(e.target.value);
                 console.log(e.target.value);
               }}
@@ -94,8 +143,8 @@ const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
             {/* <button id="butt1" onClick={newpage1} className="go" onclick="newpage1()">
               NASTAVI
             </button> */}
-            {/* {name === '' ? null : ( */}{' '}
-            <button id="butt1" className="go" onPointerDown={goHome}>
+            {/* {name === '' ? null : ( */}{" "}
+            <button id="butt1" className="buttongo" onPointerDown={goHome}>
               NASTAVI
             </button>
             {/* )} */}

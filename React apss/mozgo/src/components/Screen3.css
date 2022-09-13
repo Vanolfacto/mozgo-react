@@ -1,704 +1,140 @@
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
 
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
-    } */
+   .Screen3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%;
+  height: 100vh; */
+  justify-content: space-evenly;
+   }
 
 
-    .ev {
+    /* .ev {
         display: flex;
         align-items: center;
         text-align: center;
         flex-direction: column;
 
-    }
-
-    .arrow {
-        position: absolute;
-        left: 5%;
-        top: 6%;
-        background: rgb(67, 67, 67);
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .title {
-        position: absolute;
-        margin: 0;
-        padding: 0;
-        top: 60px
-    }
-
-    .brain1 {
-        position: relative;
-        top: -29px;
-    }
-
-    .det {
-        position: absolute;
-        top: 286px;
-        margin: 0;
-    }
-
-    .brain2 {
-        position: relative;
-        top: 10px;
-    }
-
-    .book {
-        position: absolute;
-        top: 503px;
-        margin: 0;
-    }
-
-    .may {
-        position: absolute;
-        top: 750px;
-        margin: 0;
-    }
-
-    .back1 {
-        position: absolute;
-        top: 156px;
-        width: 235px;
-        height: 120px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-    .back2 {
-        position: absolute;
-        top: 373px;
-        width: 240px;
-        height: 120px;
-        border-radius: 20px;
-        background: rgb(176, 174, 174);
-    }
-
-    .back3 {
-        position: absolute;
-        top: 620px;
-        width: 240px;
-        height: 120px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-
-
-    .popup {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow {
-        position: absolute;
-        width: 60%;
-        height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-
-    }
-
-    input {
-        display: block;
-        margin: 20px auto;
-        /* font-family: amatic-sc; */
-        text-align: center;
-        width: 90%;
-        height: 15%;
-        border-radius: 10px;
-        border: none;
-        font-size: 35px;
-        box-shadow: inset 3px 3px 3px rgba(54, 54, 54, 0.1);
-    }
-
-    .go {
-        display: block;
-        margin: 40px auto;
-        background: #FFE9B0;
-        border: none;
-        border-radius: 30px;
-        width: 80%;
-        height: 16%;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-        font-size: 35px;
-        /* font-family: amatic-sc; */
-        text-align: center;
-        text-decoration: none;
-        color: black;
-    }
-.lell{
-    text-decoration: none;
-    color: black;
-}
-    .nastavi{
-        text-decoration: none;
-    }
-
-    .brain1window {
-        display: block;
-        margin: 0px auto;
-        width: 90px;
-        background: gray;
-        border-radius: 5rem;
-    }
-
-    .brain2window {
-        display: block;
-        margin: 0px auto;
-        width: 90px;
-        background: rgb(176, 174, 174);
-        border-radius: 5rem;
-    }
-
-    .back1window {
-        display: flex;
-        margin: 25px auto;
-
-        border-radius: 100%;
-        width: 90px;
-        height: 78.88px;
-        background: gray;
-
-    }
-
-    .arrowwindow {
-
-        display: block;
-        margin: 5px 10px;
-
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup2 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: -8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow2 {
-        position: absolute;
-        width: 60%;
-        height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow2 {
-
-        display: block;
-        margin: 5px 10px;
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup3 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: -8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow3 {
-        position: absolute;
-        width: 60%;
-        height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow3 {
-
-        display: block;
-        margin: 5px 10px;
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .back3window {
-        width: 70px;
-        height: 70px;
-        background: gray;
-        display: block;
-        margin: 0px auto;
-        border-radius: 50%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 769px) {
-
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
     } */
-
-
-
-    .ev {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-
-    }
-
-    .arrow {
-        position: absolute;
-        left: 5%;
-        top: 6%;
-        background: rgb(67, 67, 67);
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .title {
-        position: absolute;
-        margin: 0;
-        padding: 0;
-        top: 60px
-    }
-
-    .brain1 {
-        position: relative;
-        top: -29px;
-    }
-
-    .det {
-        position: absolute;
-        top: 286px;
-        margin: 0;
-    }
-
-    .brain2 {
-        position: relative;
-        top: 10px;
-    }
-
-    .book {
-        position: absolute;
-        top: 503px;
-        margin: 0;
-    }
-
-    .may {
-        position: absolute;
-        top: 750px;
-        margin: 0;
-    }
-
-    .back1 {
-        position: absolute;
-        top: 156px;
-        width: 235px;
-        height: 120px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-    .back2 {
-        position: absolute;
-        top: 373px;
-        width: 240px;
-        height: 120px;
-        border-radius: 20px;
-        background: rgb(176, 174, 174);
-    }
-
-    .back3 {
-        position: absolute;
-        top: 620px;
-        width: 240px;
-        height: 120px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-
-
-    .popup {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow {
-        position: absolute;
-        width: 20%;
-        height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-
-    }
-
-    input {
-        display: block;
-        margin: 20px auto;
-        /* font-family: amatic-sc; */
-        text-align: center;
-        width: 90%;
-        height: 12%;
-        border-radius: 10px;
-        border: none;
-        font-size: 35px;
-        box-shadow: inset 3px 3px 3px rgba(54, 54, 54, 0.1);
-    }
-
-    .go {
-        display: block;
-        margin: 40px auto;
-        background: #FFE9B0;
-        border: none;
-        border-radius: 30px;
-        width: 75%;
-        height: 15%;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-        font-size: 35px;
-        /* font-family: amatic-sc; */
-        text-align: center;
-        text-decoration: none;
-        color: black;
-    }
-    .nastavi{
-        text-decoration: none;
-    }
-    .lell{
-        text-decoration: none;
-        color: black;
-    }
-    .brain1window {
-        display: block;
-        margin: 0px auto;
-        width: 90px;
-        background: gray;
-        border-radius: 5rem;
-    }
-
-    .brain2window {
-        display: block;
-        margin: 0px auto;
-        width: 90px;
-        background: rgb(176, 174, 174);
-        border-radius: 5rem;
-    }
-
-    .back1window {
-        display: flex;
-        margin: 25px auto;
-
-        border-radius: 100%;
-        width: 90px;
-        height: 78.88px;
-        background: gray;
-
-    }
-
-    .arrowwindow {
-
-        display: block;
-        margin: 5px 10px;
-
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup2 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: -8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow2 {
-        position: absolute;
-        width: 20%;
-        height: 32%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow2 {
-
-        display: block;
-        margin: 5px 10px;
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup3 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        margin-left: -8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow3 {
-        position: absolute;
-        width: 20%;
-        height: 32%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow3 {
-
-        display: block;
-        margin: 5px 10px;
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .back3window {
-        width: 70px;
-        height: 70px;
-        background: gray;
-        display: block;
-        margin: 0px auto;
-        border-radius: 50%;
-    }
+.arrow{
+    position: absolute;
+    left: 20px;
+    background: rgb(67, 67, 67);
+    padding: 12px;
+    border-radius: 2rem;
+    width: 10px;
+    height: 12px;
 }
 
+.titlen3{
+    text-align: center;
+}
 
+.brain1{
+    background-color: gray;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.det{
+    text-align: center;
+}
 
+.brain2{
+    background-color: gray;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
 
+.book{
+    text-align: center;
+}
 
+.back3{
+    background-color: gray;
+    width: 210px;
+    height: 139px;
+    border-radius: 10%;
+}
 
+.may{
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-height: 800px) {
-    /* @font-face {
-        font-family: amatic-sc;
-        src: url(amatic-sc.bold.ttf);
-    } */
-
-
-    .ev {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-
-    }
-
-    .arrow {
-        position: absolute;
-        left: 5%;
-        top: 6%;
-        background: rgb(67, 67, 67);
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .title {
-        position: absolute;
-        margin: 0;
-        padding: 0;
-        top: 60px
-    }
-
-    .brain1 {
-        position: relative;
-        top: 8px;
-        width: 50%;
-        height: 90%;
-    }
-
-    .det {
-        position: absolute;
-        top: 206px;
-        margin: 0;
-    }
-
-    .brain2 {
-        position: relative;
-        top: 24px;
-        width: 90px;
-        height: 55.5px;
-    }
-
-    .book {
-        position: absolute;
-        top: 365px;
-        margin: 0;
-    }
-
-    .may {
-        position: absolute;
-        top: 520px;
-        margin: 0;
-    }
-
-    .back1 {
-        position: absolute;
-        top: 123px;
-        width: 170px;
-        height: 80px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-    .back2 {
-        position: absolute;
-        top: 280px;
-        width: 170px;
-        height: 80px;
-        border-radius: 20px;
-        background: rgb(176, 174, 174);
-    }
-
-    .back3 {
-        position: absolute;
-        top: 430px;
-        width: 170px;
-        height: 80px;
-        border-radius: 20px;
-        background: gray;
-    }
-
-
-
-    .popup {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
+.popup{
+    background: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
         position: absolute;
         top: 0;
         margin-left: 0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         background-repeat: repeat;
-    }
+}
 
-    .popupwindow {
-        position: absolute;
+.popupwindow{
+    position: absolute;
         max-width: 60%;
         max-height: 45%;
         border-radius: 20px;
         background: #FFC24D;
         text-align: center;
+}
 
-    }
+.arrowwindow{
+    display: block;
+        margin: 0.5rem 1rem;
 
-    input {
+        background: rgb(67, 67, 67);
+        width: 3%;
+        height: 4%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        border-radius: 50%;
+}
 
+.brain1window{
+    display: block;
+        margin: 0rem auto;
+        width: 5rem;
+        background: gray;
+        border-radius: 5rem;
+        top: -1rem;
         position: relative;
-        /* font-family: amatic-sc; */
+}
+
+.brain2window{
+    display: block;
+        margin: 0rem auto;
+        width: 5rem;
+        background: rgb(176, 174, 174);
+        border-radius: 5rem;
+        top: -20px;
+        position: relative;
+}
+
+.back3window{
+    width: 4rem;
+        height: 4rem;
+        background: gray;
+        display: block;
+        margin: 0rem auto;
+        border-radius: 50%;
+        top: -1rem;
+        position: relative;
+}
+
+.inputname{
+    position: relative;
+      
         text-align: center;
         max-width: 90%;
         height: 18%;
@@ -707,10 +143,10 @@
         font-size: 200%;
         box-sizing: border-box;
         top: -1rem;
-    }
+}
 
-    .go {
-        display: block;
+.buttongo{
+    display: block;
         margin: 0vh auto;
         background: #FFE9B0;
         border: none;
@@ -718,139 +154,10 @@
         width: 80%;
         height: 15%;
         font-size: 200%;
-        /* font-family: amatic-sc; */
+        
         text-align: center;
         text-decoration: none;
         color: black;
         position: relative;
         top: -1rem;
-    }
-    .lell{
-        text-decoration: none;
-        color: black;
-    }
-    .nastavi{
-        text-decoration: none;
-    }
-
-    .brain1window {
-        display: block;
-        margin: 0rem auto;
-        width: 5rem;
-        background: gray;
-        border-radius: 5rem;
-        top: -1rem;
-        position: relative;
-    }
-
-    .brain2window {
-        display: block;
-        margin: 0rem auto;
-        width: 5rem;
-        background: rgb(176, 174, 174);
-        border-radius: 5rem;
-        top: -20px;
-        position: relative;
-    }
-
-
-
-    .arrowwindow {
-
-        display: block;
-        margin: 0.5rem 1rem;
-
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup2 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow2 {
-        position: absolute;
-        max-width: 60%;
-        max-height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow2 {
-
-        display: block;
-        margin: 0.5rem 1rem;
-
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .popup3 {
-        background: rgb(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-repeat: repeat;
-    }
-
-    .popupwindow3 {
-        position: absolute;
-        max-width: 60%;
-        max-height: 35%;
-        border-radius: 20px;
-        background: #FFC24D;
-        text-align: center;
-    }
-
-    .arrowwindow3 {
-
-        display: block;
-        margin: 0.5rem 1rem;
-
-        background: rgb(67, 67, 67);
-        width: 3%;
-        height: 4%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-        border-radius: 50%;
-    }
-
-    .back3window {
-        width: 4rem;
-        height: 4rem;
-        background: gray;
-        display: block;
-        margin: 0rem auto;
-        border-radius: 50%;
-        top: -1rem;
-        position: relative;
-    }
 }
