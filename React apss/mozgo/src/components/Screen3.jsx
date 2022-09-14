@@ -54,52 +54,46 @@ const Screen3 = ({ name, setName, avatar, setAvatar, mode }) => {
 
   return (
     <div className="Screen3">
-      <div>
-        <div className="ev">
-          <Link to="/n2">
-            <img
-              className="arrow"
-              width="10px"
-              height="15px"
-              src="/assets/images/Vector.png"
-              alt=""
-            />
-          </Link>
-          <h1 className="titlen3">IZABERI SVOG AVATARA:</h1>
-          <div
-            className="back1"
-            id="button"
-            onPointerDown={() => toggleModal(0)}
-          >
-            <img
-              className="brain1"
-              id="brain"
-              src="/assets/images/mozgo 2-05 1.png"
-              alt=""
-            />
-          </div>
-
-          <h1 className="det">DETEKTIV MOZGON</h1>
-          <div
-            className="back2"
-            id="button2"
-            onPointerDown={() => toggleModal(1)}
-          >
-            <img
-              className="brain2"
-              id="brain2"
-              src="/assets/images/mozgo-06 1.png"
-              alt=""
-            />
-          </div>
-          <h1 className="book">KNJIŠKO SVEZNALIĆ</h1>
-          <div
-            id="button3"
-            className="back3"
-            onPointerDown={() => toggleModal(2)}
-          ></div>
-          <h1 className="may">NAREDNIK STROŽILO</h1>
+      <div className="wholescreen">
+        <Link to="/n2">
+          <img
+            className="arrow"
+            width="10px"
+            height="15px"
+            src="/assets/images/Vector.png"
+            alt=""
+          />
+        </Link>
+        <h1 className="titlen3">IZABERI SVOG AVATARA:</h1>
+        <div className="back1" id="button" onPointerDown={() => toggleModal(0)}>
+          <img
+            className="brain1"
+            id="brain"
+            src="/assets/images/mozgo 2-05 1.png"
+            alt=""
+          />
         </div>
+
+        <h1 className="det">DETEKTIV MOZGON</h1>
+        <div
+          className="back2"
+          id="button2"
+          onPointerDown={() => toggleModal(1)}
+        >
+          <img
+            className="brain2"
+            id="brain2"
+            src="/assets/images/mozgo-06 1.png"
+            alt=""
+          />
+        </div>
+        <h1 className="book">KNJIŠKO SVEZNALIĆ</h1>
+        <div
+          id="button3"
+          className="back3"
+          onPointerDown={() => toggleModal(2)}
+        ></div>
+        <h1 className="may">NAREDNIK STROŽILO</h1>
       </div>
 
       {modal && (

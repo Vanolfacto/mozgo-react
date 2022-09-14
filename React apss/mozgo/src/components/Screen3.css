@@ -9,28 +9,48 @@
   justify-content: space-evenly;
    }
 
+.wholescreen{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%;
+  height: 100vh; */
+  justify-content: space-evenly;
+}
+
 .arrow{
     position: absolute;
-    left: 20px;
     background: rgb(67, 67, 67);
     padding: 12px;
     border-radius: 2rem;
-    width: 10px;
-    height: 12px;
+    width: 0.5rem;
+    height: 0.6rem;
+    margin-top: 20px;
+    margin-left: -48.25%;
 }
 
 .titlen3{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
+.back1{
+    text-align: center;
+}
 .brain1{
     background-color: gray;
     border-radius: 10%;
     padding-left: 20px;
     padding-right: 20px;
+    width: 60%;
 }
 
 .det{
+    text-align: center;
+    margin: 10px;
+}
+
+.back2{
     text-align: center;
 }
 
@@ -40,21 +60,24 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
+    width: 60%;
 }
 
 .book{
     text-align: center;
+    margin: 10px;
 }
 
 .back3{
     background-color: gray;
-    width: 210px;
-    height: 139px;
+    width: 10.375rem;
+    height: 6.9239rem;
     border-radius: 10%;
 }
 
 .may{
     text-align: center;
+    margin: 10px;
 }
 
 .popup{
@@ -71,18 +94,22 @@
 }
 
 .popupwindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     position: absolute;
-        max-width: 60%;
-        max-height: 45%;
+        width: 25%;
+        height: 50%;
         border-radius: 20px;
         background: #FFC24D;
         text-align: center;
+        align-items: center;
 }
 
 .arrowwindow{
     display: block;
-        margin: 0.5rem 1rem;
-
+        margin: -1.5rem 1rem;
+        margin-right: 80%;
         background: rgb(67, 67, 67);
         width: 3%;
         height: 4%;
@@ -99,7 +126,7 @@
         width: 5rem;
         background: gray;
         border-radius: 5rem;
-        top: -1rem;
+        /* top: -1rem; */
         position: relative;
 }
 
@@ -109,7 +136,7 @@
         width: 5rem;
         background: rgb(176, 174, 174);
         border-radius: 5rem;
-        top: -20px;
+        /* top: -20px; */
         position: relative;
 }
 
@@ -120,21 +147,22 @@
         display: block;
         margin: 0rem auto;
         border-radius: 50%;
-        top: -1rem;
+        /* top: -1rem; */
         position: relative;
 }
 
 .inputname{
     position: relative;
-      
+      align-items: center;
         text-align: center;
-        max-width: 90%;
-        height: 18%;
+         max-width: 90%;
+        height: 18%; 
         border-radius: 0.4rem;
         border: none;
         font-size: 200%;
         box-sizing: border-box;
-        top: -1rem;
+        /* top: -1rem; */
+        
 }
 
 .buttongo{
@@ -151,5 +179,23 @@
         text-decoration: none;
         color: black;
         position: relative;
-        top: -1rem;
+        /* top: -1rem; */
 }
+
+
+@media screen and (max-width: 768px){
+    .popupwindow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+            width: 60%;
+            height: 50%;
+            border-radius: 20px;
+            background: #FFC24D;
+            text-align: center;
+            align-items: center;
+    }
+    
+  }
+  

@@ -5,10 +5,13 @@
   align-items: center;
 }
 
-.linkcloud{
-
+.single{
+  margin: 5px;
+  margin-bottom: 10px;
 }
-
+.multi{
+  margin: 5px;
+}
 .cloud{
    
         background: white;
@@ -24,7 +27,7 @@
     background: white;
         padding: 25px;
         width: 140px;
-        height: 120px;
+        height: 124px;
         border-radius: 15%;
         padding-top: 40px;
         padding-bottom: 40px;
